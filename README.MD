@@ -45,7 +45,6 @@ You will see the following items in this architecture:
 * [TestListener](#testlistener)
 * [Logging](#logging)
 * [Configuration files](#configuration-files)
-* [Parallel execution](#parallel-execution)
 * [Test Data Factory](#test-data-factory)
 * [Profiles executors on pom.xml](#profiles-executors-on-pomxml)
 
