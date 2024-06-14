@@ -9,15 +9,13 @@ practices.**
 It has a complete solution to run tests in different ways:
 
 * local testing using the browser on your local machine
-* parallel (or single) testing using Selenium Docker
-* local testing using TestContainers
-* Distributed execution using Selenium Grid
+
 
 ## Examples
 
 ### Local testing execution example
 
-![Local testing execution example](assets/example_filed_test_with_report.gif)
+![Local testing execution example](assets/Test_Execution.gif)
 
 
 ## Languages and Frameworks
@@ -50,8 +48,7 @@ You will see the following items in this architecture:
 * [Parallel execution](#parallel-execution)
 * [Test Data Factory](#test-data-factory)
 * [Profiles executors on pom.xml](#profiles-executors-on-pomxml)
-* [Pipeline as a code](#pipeline-as-a-code)
-* [Test environment abstraction](#execution-with-docker-selenium-distributed)
+
 
 Do you have any other items to add to this test architecture? Please do a pull request or open an issue to discuss.
 
@@ -232,11 +229,3 @@ To do this you need:
     </suiteXmlFiles>
 </configuration>
 ```
-
-* Use `-Dsuite=suite_name` to call the suite
-
-````bash
-mvn test -Pweb-execution -Dsuite=parallel
-````
-
-
