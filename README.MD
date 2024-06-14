@@ -1,9 +1,9 @@
 # Sauce Demo Test Automation using Java and Selenium WebDriver
 
 
-![Parallel testing execution example with Selenium Grid](assets/Build.png)
+![Parallel testing execution example with Selenium](assets/Build.png)
 
-**This project delivers to you a complete lean test architecture for your web tests using the best frameworks and
+**This project delivers to you a complete test automation for Saucedemo web tests using the best frameworks and
 practices.**
 
 It has a complete solution to run tests in different ways:
